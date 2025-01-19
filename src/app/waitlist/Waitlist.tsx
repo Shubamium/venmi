@@ -68,6 +68,7 @@ export default async function Waitlist({}: Props) {
         </p>
       </section>
 
+      <p className="scroll-indicator">scroll to the right to see more {"→"}</p>
       <section id="wl-list" className="confine">
         <div className="waitlist pd">
           <div className="heading">
