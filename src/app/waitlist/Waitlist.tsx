@@ -62,9 +62,8 @@ export default async function Waitlist({}: Props) {
           </svg>
         </div>
         <p className="p">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla enim
-          ex, vehicula vel pretium molestie, porttitor ullamcorper elit. Nunc id
-          elit ut justo pulvinar lacinia.
+          Here is where you’ll be able to check my queue and check the status of
+          your commission!
         </p>
       </section>
 

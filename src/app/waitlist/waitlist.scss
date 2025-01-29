@@ -3,9 +3,9 @@
     margin-top: 100px;
     text-align: center;
     .p {
-      max-width: min(800px, 80%);
+      max-width: min(700px, 80%);
       margin: 0 auto;
-      font-size: 1.3rem;
+      font-size: 1.5rem;
     }
     .heading {
       display: flex;
@@ -51,9 +51,8 @@
     .waitlist {
       // background: red;
       width: 370px;
-      min-height: 500px;
+      max-height: 500px;
       --accent: #b55a6a;
-
       transition: all 150ms ease;
       &:hover {
         transform: translateY(-2%);
@@ -111,7 +110,11 @@
         flex-direction: column;
         gap: 1em;
         padding: 1.5em;
-
+        // margin-top: 1em;
+        border-top: 11px solid var(--accent);
+        overflow-y: auto;
+        min-height: 600px;
+        max-height: 600px;
         .empty {
           background: rgba(38, 0, 0, 0.234);
           padding: 0.25em;
